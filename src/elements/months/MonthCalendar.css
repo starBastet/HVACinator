@@ -40,6 +40,8 @@
 {
 	display:inline-block;
 	margin:-1px -1px;
+	margin-bottom:-4px;
+	margin-top:1px;
 	max-width:14.1%;
 	min-width:14.1%;
 	max-height:40px;
