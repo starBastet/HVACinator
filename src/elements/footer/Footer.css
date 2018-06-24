@@ -1,0 +1,25 @@
+#footerContainer
+{
+	position:relative;
+	margin:0 auto;
+	top:-30px;
+	padding-bottom:4px;
+	width:100%;
+	color:#BBBBBB;
+	font-size:.7em;
+	text-align:center;
+	background:#dfdfdf;
+	opacity:0;
+	transition:all 500ms ease-out;
+}
+
+#footerContainer a
+{
+	color:#9A9A9A;
+}
+
+#footerContainer.show
+{
+	top:0;
+	opacity:.7;
+}

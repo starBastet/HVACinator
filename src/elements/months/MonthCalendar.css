@@ -1,0 +1,86 @@
+.monthCalendarContainer
+{
+	position:relative;
+	margin:0 auto;
+	margin-bottom:10px;
+	width:100%;
+	height:auto;
+	opacity:0;
+	transition:all 500ms ease-in-out;
+}
+
+.monthCalendarContainer.show
+{
+	opacity:1;
+}
+
+.monthCalendarContainer ul
+{
+	width:100%;
+	list-style-type:none;
+	background:#cfcfcf;
+	text-align:center;
+}
+
+.monthCalendarContainer ul li
+{
+	display:inline-block;
+	padding:4px 0;
+	width:14.1%;
+	height:auto;
+	color:#999999;
+}
+
+.daysList
+{
+	list-style-type:none;
+}
+
+.dayCell
+{
+	display:inline-block;
+	margin:-1px -1px;
+	max-width:14.1%;
+	min-width:14.1%;
+	max-height:40px;
+	min-height:40px;
+	border:1px solid #777;
+	background:#dedede;
+	overflow:hidden;
+}
+
+.dayNumLabel
+{
+	float:left;
+	margin-top:-2px;
+	margin-left:2px;
+	font-size:.5em;
+	color:#666;
+}
+
+.dayDetails
+{
+	position:relative;
+	margin:0 auto;
+	margin-top:8px;
+	color:#ffffff;
+	line-height:1.3em;
+	text-align:center;
+	font-size:.8em;
+	opacity:.9;
+	overflow:hidden;
+}
+
+.dayHeat
+{
+	padding-top:1px;
+	height:18px;
+	background:#f96943;
+}
+
+.dayAc
+{
+	padding-top:1px;
+	height:20px;
+	background:#2f9aea;
+}

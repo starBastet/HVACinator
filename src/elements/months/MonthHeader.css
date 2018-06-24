@@ -1,0 +1,44 @@
+.monthHeaderContainer
+{
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	height:40px;
+	color:#ffffff;
+	background:#a0a0a0;
+	cursor:pointer;
+}
+
+.monthHeaderLabel
+{
+	float:left;
+	margin-top:8px;
+	margin-left:10px;
+	font-size:1.5em;
+}
+
+.monthHeaderDetails
+{
+	float:right;
+	height:40px;
+	font-size:.9em;
+	text-align:right;
+	line-height:1.2em;
+}
+
+.monthHeat
+{
+	padding-top:1px;
+	padding-right:10px;
+	padding-left:10px;
+	height:20px;
+	background:#f96943;
+}
+
+.monthAc
+{
+	padding-right:10px;
+	padding-left:10px;
+	height:19px;
+	background:#2f9aea;
+}

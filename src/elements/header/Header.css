@@ -1,0 +1,45 @@
+#headerContainer
+{
+	position:relative;
+	margin:0 auto;
+	margin-top:40px;
+	margin-bottom:40px;
+	top:-360px;
+	opacity:0;
+	transition:all 700ms ease-out;
+}
+
+#headerContainer.show
+{
+	top:0;
+	opacity:1;
+}
+
+#headerImg
+{
+	position:relative;
+	margin:0 auto;
+	width:300px;
+	height:65px;
+	background:url(img/iconM.png);
+}
+
+#headerBlurb
+{
+	position:relative;
+	margin:0 auto;
+	left:35px;
+	top:-10px;
+	width:100%;
+	height:auto;
+	color:#999999;
+	font-size:.5em;
+	text-align:center;
+	opacity:0;
+	transition:all 50s;
+}
+
+#headerBlurb.show
+{
+	opacity:1;
+}

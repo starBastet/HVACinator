@@ -1,0 +1,44 @@
+#monthManagerContainer
+{
+	position:relative;
+	margin:0 auto;
+	top:100px;
+	width:100%;
+	height:auto;
+	opacity:0;
+	transition:all 500ms ease-out;
+}
+
+#monthDescriptorLabel
+{
+	position:relative;
+	margin:0 auto;
+	margin-bottom:5px;
+	width:94%;
+	height:auto;
+	color:#696969;
+	font-size:.7em;
+	text-align:right;
+}
+
+#monthManagerContainer.show
+{
+	top:0;
+	opacity:1;
+}
+
+/*  DESKTOP  */
+/*and (orientation: landscape) and (min-device-width: 1100px)*/
+@media only screen and (min-width: 710px)
+{
+	#monthManagerContainer
+	{
+		width:822px;
+	}
+	
+	#monthDescriptorLabel
+	{
+		width:auto;
+		margin-right:20px;
+	}
+}
